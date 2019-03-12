@@ -1,0 +1,154 @@
+.fundo{
+    background-image: url(img/fundo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.align{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bathroom{
+    background-image: linear-gradient(#4682B4, #B0C4DE, #ADD8E6) ;
+}
+.container{
+    margin: 0; /*margem*/
+    font-size: 16px; /*tamanho da fonte*/
+    font-family: sans-serif; /*retira detalhe da fonte*/
+    box-sizing: border-box; /*ele contrai o item*/
+  }
+.cadastro{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.quadrado{
+    background-image: linear-gradient(#BFEFFF, #B2DFEE,#9AC0CD );
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 80px;
+    width: 350px;
+    min-height: 500px;
+    align-items: center;
+    border-radius: 20px;
+}
+.ok{
+    margin-left: 135px;
+}
+.confirmar{
+    margin-top: 50px;
+   text-align: center;
+}
+.quadrado2{
+    background-image: linear-gradient(#BFEFFF, #B2DFEE,rgb(154, 203, 205) );
+    margin-left: 5px;
+    margin-right: 45px;
+    width: 352px;
+    height: 800px;
+    align-items: center;
+    border-radius: 20px;
+}
+.quadrado3{
+    background-image: linear-gradient(#BFEFFF, #B2DFEE,#9AC0CD );
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 80px;
+    width: 350px;
+    height: 605px;
+    align-items: center;
+    border-radius: 20px
+}
+.quadrado4{
+    background-image: linear-gradient(#BFEFFF, #B2DFEE,rgb(154, 203, 205) );
+    margin-left: 5px;
+    margin-right: 45px;
+    width: 352px;
+    height: 830px;
+    align-items: center;
+    border-radius: 20px;
+}
+.fieldset{
+    width: 89%;
+    margin-left: 4.5px;
+}
+.labell{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px; /*arredonda*/
+    padding: 0 15px;
+    font-size: 1em;
+    box-sizing: border-box;
+    outline: none; /*tira a marcação*/
+    border: none; /*sem borda*/
+    background:  rgba(0.0, 0, 0, 0.1);
+}
+.titulo{
+    display: flex;
+    height: 6rem; /*altura*/
+    width: 100%; /*largura*/
+    color: black; /*cor da fonte*/
+    justify-content: center; /*centralização do texto*/
+    align-items: center; /*alinhamento dos itens*/
+}
+.cozinha{
+    background-image: linear-gradient( #CDBE70,#EEDC82, #FFEC8B);
+    margin: 0;
+	padding: 0;
+}
+.bebe{
+    width: 360px;
+    height: 415px;
+    margin: 0 3%;
+}
+.ut{
+    width: 82px;
+    height: 87px;
+    margin-top: 1.5rem;
+    padding: 2px;
+}
+.chuveiro{
+    width: 260px;
+    height: 155px;
+    float: left;
+    margin-top: 0.5em;
+}
+.bebeb{
+    width: 275px;
+    height: 315px;
+    margin: 0 10%;
+}
+.info{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+.botao{
+    height: 25px;
+    margin-left: 70px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #BFEFFF;
+  
+}
+.botaoR{
+    margin-top: 5px;
+    height: 25px;
+    margin-left: 145px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #BFEFFF;
+}
+.ir{
+    margin-top: 40px;
+    text-align: center;
+}
+.go{
+    margin-top: 5px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    background-color: #BFEFFF;
+    border: none;
+}

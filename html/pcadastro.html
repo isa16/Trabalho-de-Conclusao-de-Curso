@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Projeto_Milena/index.css">
+    <title>VirtualBorn</title>
+</head>
+
+<body class="fundo">
+    <form id="cadastroAluno" class="quadrado">
+        <div class="container">
+            <a href="../Projeto_Milena/main.html"> <img src="img/back.png" alt=""></a>
+
+            <h1 class="align">VirtualBorn</h1>
+
+            <p class="cadastro">
+                <strong>Cadastre-se</strong>
+            </p>
+
+            <fieldset class="fieldset">
+                <legend>
+                    <strong>Dados Pessoais</strong>
+                </legend>
+                <input id="input" class="labell" type="text" name="Nome" size="50" placeholder="Nome Completo"> </br>
+                <p></p>
+
+                <input id="input" class="labell" type="date" name="Data" placeholder="Data de Nascimento"> </br>
+                <p></p>
+
+                <input id="input" class="labell" type="text" name="email" size="50" placeholder="E-mail"> </br>
+                <p></p>
+
+                <input id="input" class="labell" type="password" name="Senha" size="50" placeholder="Senha"> </br>
+                <p></p>
+
+                Sexo:
+                <br>
+                <input id="input" type="radio" name="Sexo" value="Feminino"> Feminino
+                <input id="input" type="radio" name="Sexo" value="Masculino"> Masculino
+
+            </fieldset>
+            <p></p>
+
+            <fieldset class="fieldset">
+                <legend>
+                    <strong>Suas Características</strong>
+                </legend>
+
+                <strong>Etnia: </strong>
+                <br>
+                <input id="input" type="radio" name="Etnia" value="Branco"> Branco
+                <input id="input" type="radio" name="Etnia" value="Negro"> Negro
+                <input id="input" type="radio" name="Etnia" value="Indigena"> Indígena
+                <input id="input" type="radio" name="Etnia" value="Pardo"> Pardo
+                <p></p>
+
+                <strong>Cor do Cabelo:</strong>
+                <br>
+                <input id="input" type="radio" name="corCabelo" value="Castanho"> Castanho
+                <input id="input" type="radio" name="corCabelo" value="Loiro"> Loiro
+                <input id="input" type="radio" name="corCabelo" value="Preto"> Preto
+                <input id="input" type="radio" name="corCabelo" value="Ruivo"> Ruivo
+                <p></p>
+
+                <strong>Cor do Olho:</strong>
+                <br>
+                <input id="input" type="radio" name="corOlho" value="Azul"> Azul
+                <input id="input" type="radio" name="corOlho" value="Castanho Claro"> Castanho Claro
+                <input id="input" type="radio" name="corOlho" value="Preto"> Preto
+                <p></p>
+                <input id="input" type="radio" name="corOlho" value="Verde"> Verde
+                <input id="input" type="radio" name="corOlho" value="Castanho escuro"> Castanho Escuro </br>
+
+            </fieldset>
+            <p></p>
+            <button class="botao">Cadastrar </button>
+            <button class="botao"><a href="../Projeto_Milena/pconfirma.html">Seguir </a></button>
+
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+        var config = {
+            apikey: "AIzaSyDoznWeJk5R2K7v59He9VhztFt7XNYRn-c",
+            authDomain: "projeto-bebe.firebaseapp.com",
+            databaseURL: "https://projeto-bebe.firebaseio.com",
+            projectId: "projeto-bebe",
+            storageBucket: " ",
+            messagingSenderId: "858422977065"
+        };
+        firebase.initializeApp(config);
+        var database = firebase.database();
+    </script>
+    <script src="../Projeto_Milena/adicionarAluno.js"></script>
+
+
+</body>
+
+</html>

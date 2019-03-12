@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Projeto_Milena/index.css">
+    <title>VirtualBorn</title>
+</head>
+
+<body class="fundo">
+    <div class="quadrado">
+        <a href="../Projeto_Milena/pconfirma.html">
+            <img class="backk" src="../Projeto_Milena/img/back.png" alt="">
+        </a>
+        <header class="titulo">
+            <h1>VirtualBorn</h1>
+        </header>
+
+        <h3 class="confirmar">Listagem de alunos</h3>
+
+        <div id="lista"></div>
+        
+        <a class="ok" href="../Projeto_Milena/pcozinha.html">Continuar</a>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+        var config = {
+            apikey: "AIzaSyDoznWeJk5R2K7v59He9VhztFt7XNYRn-c",
+            authDomain: "projeto-bebe.firebaseapp.com",
+            databaseURL: "https://projeto-bebe.firebaseio.com",
+            projectId: "projeto-bebe",
+            storageBucket: " ",
+            messagingSenderId: "858422977065"
+        };
+        firebase.initializeApp(config);
+        var database = firebase.database();
+    </script>
+    <script src="../Projeto_Milena/listarAluno.js"></script>
+    
+</body>
+
+</html>
